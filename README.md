@@ -13,7 +13,7 @@ This is a full-stack web application developed for the **GramIQ Backend Develope
 ---
 
 ## 🛠️ Tech Stack
-* [cite_start]**Backend:** Python (FastAPI) [cite: 8]
+* **Backend:** Python (FastAPI)
 * **PDF Engine:** ReportLab
 * **Data Visualization:** Matplotlib
 * **Database:** SQLite (Built-in)
@@ -25,23 +25,8 @@ This is a full-stack web application developed for the **GramIQ Backend Develope
 
 ### 1. Prerequisites
 Ensure you have **Python 3.8+** installed on your system.
-pip install fastapi uvicorn reportlab matplotlib python-multipart jinja2
 
 ### 2. Clone the Repository
 ```bash
 git clone <YOUR_GITHUB_REPO_LINK_HERE>
 cd <YOUR_PROJECT_FOLDER_NAME>
-
-
-How to Run the Application
-
-Start the FastAPI server:
-
-Bash
-
-uvicorn main:app --reload
-Open your web browser and navigate to:
-
-Plaintext
-
-[http://127.0.0.1:8000](http://127.0.0.1:8000)
