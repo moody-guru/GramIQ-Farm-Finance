@@ -30,3 +30,16 @@ Ensure you have **Python 3.8+** installed on your system.
 ```bash
 git clone <YOUR_GITHUB_REPO_LINK_HERE>
 cd <YOUR_PROJECT_FOLDER_NAME>
+```
+
+### 3. Install Dependencies
+```bash
+pip install fastapi uvicorn reportlab matplotlib python-multipart jinja2
+```
+
+### 4. Start the Server
+```bash
+uvicorn main:app --reload
+```
+
+<img width="995" height="954" alt="image" src="https://github.com/user-attachments/assets/10d49d5b-00db-4b3a-8127-1ab16928f6b4" />
